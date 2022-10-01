@@ -10,7 +10,7 @@
 ### Установка
 
 ```
-$ git clone https://github.com/AndreyGates/HousePrices
+$ git clone https://github.com/AndreyGates/hotel_landing
 ```
 
 ## Использование
