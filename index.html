@@ -9,59 +9,65 @@
   </head>
   <body>
 
-    <section>
-      <!--<header>
-        <h2>
-            <a href="#" class="logo">
-            <img src="logo_arbat.jpg" alt="ВРЕМЕНА ГОДА АРБАТСКАЯ" height="180px" width="150px">
-            </a>
-        </h2>
-        <div class="navigation">
-          <a href="#">ОБЩАЯ ИНФОРМАЦИЯ</a>
-          <a href="#">РЕСТОРАН "KISLOVSKY"</a>
-          <a href="#">ЗАКАЗАТЬ ROOM-SERVICE</a>
-          <a href="#">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</a>
-          <a href="#">ПРОГРАММА ЛОЯЛЬНОСТИ</a>
-          <a href="#">ИСТОРИЯ ОТЕЛЕЙ</a>
-          <a href="#">ПРАВИЛА ПРОЖИВАНИЯ</a>
-          <a href="#">ДОКУМЕНТАЦИЯ</a>
-        </div>
-      </header>-->
-
-      <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo">
-            <img src="logo_arbat.jpg" alt="ВРЕМЕНА ГОДА АРБАТСКАЯ" height="180px" width="150px">
-        </div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-          <!-- NAVIGATION MENUS -->
-          <div class="menu">
-            <li><a href="#">ОБЩАЯ ИНФОРМАЦИЯ</a></li>
-            <li><a href="#">РЕСТОРАН "KISLOVSKY"</a></li>
-            <li><a href="#">ЗАКАЗАТЬ ROOM-SERVICE</a></li>
-            <li><a href="#">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</a></li>
-            <li><a href="#">ПРОГРАММА ЛОЯЛЬНОСТИ</a></li>
-            <li><a href="#">ИСТОРИЯ ОТЕЛЕЙ</a></li>
-            <li><a href="#">ПРАВИЛА ПРОЖИВАНИЯ</a></li>
-            <li><a href="#">ДОКУМЕНТАЦИЯ</a></li>
-          </div>
-        </ul>
-      </nav>
-
-      <div class="content">
-        <div class="info">
-          <h2>Like Nature <br><span>Be Creative!</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <a href="#" class="info-btn">More Info</a>
-        </div>
+    <!--<header>
+      <h2>
+          <a href="#" class="logo">
+          <img src="logo_arbat.jpg" alt="ВРЕМЕНА ГОДА АРБАТСКАЯ" height="180px" width="150px">
+          </a>
+      </h2>
+      <div class="navigation">
+        <a href="#">ОБЩАЯ ИНФОРМАЦИЯ</a>
+        <a href="#">РЕСТОРАН "KISLOVSKY"</a>
+        <a href="#">ЗАКАЗАТЬ ROOM-SERVICE</a>
+        <a href="#">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</a>
+        <a href="#">ПРОГРАММА ЛОЯЛЬНОСТИ</a>
+        <a href="#">ИСТОРИЯ ОТЕЛЕЙ</a>
+        <a href="#">ПРАВИЛА ПРОЖИВАНИЯ</a>
+        <a href="#">ДОКУМЕНТАЦИЯ</a>
       </div>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+    </header>-->
+
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">
+          <img src="logo_arbat.jpg" alt="ВРЕМЕНА ГОДА АРБАТСКАЯ" height="180px" width="150px">
       </div>
-    </section>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- NAVIGATION MENUS -->
+        <div class="menu" id="dropdownClick">
+          <li><a href="#">ОБЩАЯ ИНФОРМАЦИЯ</a></li>
+          <li><a href="#">РЕСТОРАН "KISLOVSKY"</a></li>
+          <li><a href="#">ЗАКАЗАТЬ ROOM-SERVICE</a></li>
+          <li><a href="#">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</a></li>
+          <li><a href="#">ПРОГРАММА ЛОЯЛЬНОСТИ</a></li>
+          <li><a href="#">ИСТОРИЯ ОТЕЛЕЙ</a></li>
+          <li><a href="#">ПРАВИЛА ПРОЖИВАНИЯ</a></li>
+          <li><a href="#">ДОКУМЕНТАЦИЯ</a></li>
+          <li class="dropdownIcon"><a href="#" onclick="">&#9776;</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <script>
+      function dropdownMenu(){
+        var x = document.getElementById("dropdownClick");
+        if (x === "");
+      }
+    </script>
+
+    <div class="content">
+      <div class="info">
+        <h2>Like Nature <br><span>Be Creative!</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="#" class="info-btn">More Info</a>
+      </div>
+    </div>
+    <div class="media-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
 
   </body>
 </html>
